@@ -11,20 +11,33 @@ let text = myPets.join();
 console.log(text);
 
 
- var arry= ["apple" ,"mango" ,"apple" ,"orange" ,"mango" ,"mango"];
+//  var arr1= ["apple" ,"mango" ,"apple" ,"orange" ,"mango" ,"mango"];
  
 
-function remove(arr) {
-    return arry.filter(item,
-    index) =>arry.indexOf(item === index);
+// function remove(arr) {
+//     return arry.filter(work,
+//     me) =>arry.indexOf(work === me);
 
-}
-    console.log(remove(arry));
+// }
+//     console.log(remove(arr1));
 
 var arr3 = [-5 , 9 ,5 , 2 ,-3 ,6 ,8,4 ,1];
 let sorted = arr3.sort((a,b) => a-b);
     console.log(sorted);
+
+
+ let v =["the" , "way", "x" ,4 ] ;
+    let workOut  =  "the" ;
+    if (v .includes = (workOut)){
+        console.log(workOut)
+    }
+    else{
+
+        console.log("the search word was not found")   
+    }
+   
     
+
 
 
 
